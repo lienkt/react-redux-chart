@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
 
-      <div className="flex w-full h-[100vh]">
+      <div className="flex w-full h-[calc(100vh-85px)]">
         <ControlCenter />
 
         <Content />
